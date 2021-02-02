@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Images_Basics_stylesheet.css">
+    </head>
+    <body>
+        <h1>
+            HTML Images
+        </h1>
+        <p>
+            Images can improve the desing and the apprearence of a web page.
+        </p>
+        <hr>
+        <h2>
+            HTML Images Syntax
+        </h2>
+        <p>
+            The HTML <mark> < img > </mark> tag is used to embed an image in a web page.<br><br>
+            Images are not tecnically inserted into a web page; images are linked to web pages. The <mark>< img ></mark> tag creates a holding space for the reference image.<br><br>
+            The <mark>< img ></mark> tagis empty, it contains attributes only, and does not have a closing tag.
+        </p>
+        <pre>
+The <mark>< img ></mark> tag has two required attributes:
+
+    - src: Specifies the path to the image
+    - alt: Specifies an alternate text for the image
+        </pre>
+        <hr>
+        <h2>
+            The src Attribute
+        </h2>
+        <p>
+            The required <mark>src</mark> attribute specifies the path to the image.
+        </p>
+        <hr>
+        <h2>
+            The alt Attribute
+        </h2>
+        <p>
+            The required <mark>alt</mark> attribute provides an alternate text for an image, if the user for some reason cannot view it (because of slow connection, an error in the src attribute, or if the user uses a screen reader).<br><br>
+            The value of the <mark>alt</mark> attribute should describe the image.<br><br>
+            If the browser cannot find an image, it will display the value of the <mark>alt</mark> attribute.
+        </p>
+        <hr>
+        <h2>
+            Image Size - Width and height
+        </h2>
+        <p>
+            Image without specifying width and height: <br><br>
+            <img src="../Assets/snowboardingAsset.jpg" alt="Snow"><br><br>
+            You can use the <mark>style</mark> attribute to specify the width and height of an image.<br><br>
+            Example: <br><br>
+            <img src = "../Assets/snowboardingAsset.jpg" alt = "Snow" style="width:500px; height:600px"><br><br>
+            Alternatively, you can use the <mark>width</mark> and <mark>height</mark> attributes: <br><br>
+            Example: <br><br>
+            <img src = "../Assets//snowboardingAsset.jpg" alt = "Snow" width = "500" height = "600">
+        </p>
+        <hr>
+        <h2>
+            Animated Images
+        </h2>
+        <p>
+            HTML allows animated GIFs: <br><br>
+            <img src = "../Assets/snowboardingNoseGrap180.gif" alt = "Snowboarding grap">
+        </p>
+        <hr>
+        <h2>
+            Image Floating
+        </h2>
+        <p>
+            Use the CSS <mark>float</mark> property to let the image float to the right or to the left of a text: <br><br>
+            <img src = "../Assets/snowboardingNoseGrap180.gif" alt = "Snowboarding grap" style = "float:right; width: 42px; height: 42px;">
+            The image will float to the right of the text. <br><br>
+            <img src = "../Assets/snowboardingNoseGrap180.gif" alt = "Snowboarding grap" style = "float:left; width: 42px; height: 42px;">
+            The image will float to the left of the text.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+body{
+    background-color:rgb(224, 224, 198);
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    color: black;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+mark{
+    background-color: rgba(128, 128, 128, 0.267);
+    color: red;
+    font-family: cursive;
+}
+
+pre{
+    color: black;
+    font-family: cursive;
+    font-size: 120%;
+}
+
+hr{
+    border: 1px solid black;
+    color: black;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr {
+    color: black;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    text-align: left
+}
+
+table {
+    width: 100%;
+}
+
+#t01 tr {
+    background-color:transparent;
+    color: black;
+}
+
+#t02 th:nth-child(2){
+    text-align: center;
+}
+
+#t04 caption {
+    color: black;
+}

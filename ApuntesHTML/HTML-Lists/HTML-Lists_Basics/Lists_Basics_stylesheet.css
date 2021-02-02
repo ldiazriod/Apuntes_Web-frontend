@@ -1,0 +1,42 @@
+body{
+    background-color:rgb(224, 224, 198);
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    color: black;
+}
+
+h3{
+    color: black;
+}
+
+p{
+    color: black;
+    font-size: 120%;
+    font-family: cursive;
+}
+
+mark{
+    background-color: rgba(128, 128, 128, 0.267);
+    color: red;
+    font-family: cursive;
+}
+
+pre{
+    color: black;
+    font-family: cursive;
+    font-size: 120%;
+}
+
+hr{
+    border: 1px solid black;
+    color: black;
+}
+
+li, dd, dt {
+    color: black;
+}

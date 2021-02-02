@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Tables_stylesheet.css">
+    </head>
+    <body>
+        <h1>
+            HTML Tables
+        </h1>
+        <p>
+            HTML tables allow web developers to arrange data into rows and columns.
+        </p>
+        <hr>
+        <h2>
+            Define an HTML Table
+        </h2>
+        <p>
+            The <mark>< table ></mark> tag defines an HTML table. <br><br>
+            Each table row is defined with a <mark> < tr ></mark>. Each table header is defined with a <mark> < th ></mark> tag. Each table data/cell is defined with a <mark> < td ></mark> tag. <br><br>
+            By default, the text in <mark> < th ></mark> elements are bold and centered. <br><br>
+            By default, the text in <mark> < td ></mark> elements are regular and left-aligned. <br><br>
+            Example: <br><br>
+            <table id = "t01">
+                <tr>
+                    <th>Firstname</th>
+                    <th>Lastname</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>Jill</td>
+                    <td>Smith</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Eve</td>
+                    <td>Jackson</td>
+                    <td>94</td>
+                </tr>
+            </table>
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Add a Border
+        </h2>
+        <p>
+            To add a border to a table, use the CSS <mark>border</mark> property.
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Collapsed Borders
+        </h2>
+        <p>
+            To let the borders collapse into one border, add the CSS <mark>border-collapse</mark> property.
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Add Cell Padding
+        </h2>
+        <p>
+            Cell padding specifies the space between the cell content and its borders. <br><br>
+            If you do not specify a padding, the table cells will be displated without padding. <br><br>
+            To set the padding, use the CSS <mark>padding</mark> property.
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Left-align Headings
+        </h2>
+        <p>
+            By default, table headings are bold and centered. <br><br>
+            To left-align the table headings, use the CSS <mark>text-align</mark> property.
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Add Border Spacing
+        </h2>
+        <p>
+            Border spacing specifies the space between the cells. <br><br>
+            To set the border spacing for a table, use the CSS <mark>border-spacing</mark> property. <br><br>
+            <strong>Note: </strong> If the table has collapse borders, <mark>border-spacing</mark> has no effect.
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Cell that Spans Many Columns.
+        </h2>
+        <p>
+            To make a cell span more than one column, use the <mark>colspan</mark> attribute. <br><br>
+            Example: <br><br>
+            <table id = "t02">
+                <tr>
+                    <th>Name</th>
+                    <th colspan="2">Telephone</th>
+                </tr>
+                <tr>
+                    <td>Bill Gates</td>
+                    <td>55577854</td>
+                    <td>55577855</td>
+                </tr>
+            </table>
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Cell that Spans Many Rows
+        </h2>
+        <p>
+            To make a cell span more than one row, use the <mark>rowspan</mark> attribute. <br><br>
+            <table id = "t03">
+                <tr>
+                    <th>Name:</th>
+                    <td>Bill Gates</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Telephone:</th>
+                    <td>55577854</td>
+                </tr>
+                <tr>
+                    <td>55577855</td>
+                </tr>
+            </table>
+        </p>
+        <hr>
+        <h2>
+            HTML Table - Add a Caption
+        </h2>
+        <p>
+            To add a caption to a table, use the <mark>< caption ></mark> tag. <br><br>
+            Example: <br><br>
+            <table id = "t04">
+                <caption>Monthly savings</caption>
+                <tr>
+                    <th>Month</th>
+                    <th>Savings</th>
+                </tr>
+                <tr>
+                    <td>January</td>
+                    <td>$100</td>
+                </tr>
+                <tr>
+                    <td>February</td>
+                    <td>$50</td>
+                </tr>
+            </table>
+        </p>
+    </body>
+</html>
