@@ -1,0 +1,94 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Links_Colors_stylesheet.css">
+    </head>
+    <body>
+        <h1>
+            HTML Links
+        </h1>
+        <hr>
+        <p>
+            Links are found nearly all web pages. Links allow users tp click their way from page to page.
+        </p>
+        <hr>
+        <h2>
+            HTML Links - Hyperlinks
+        </h2>
+        <p>
+            HTML links are Hyperlinks.<br><br>
+            You can click on a link and jump to another document.<br><br>
+            When you move the mouse over a link, the mouse arrow will turn into a little hand.
+        </p>
+        <hr>
+        <h2>
+            HTML Links - Syntax
+        </h2>
+        <p>
+            The HTML <mark>< a ></mark> tag defines a hyperlink.<br><br>
+            The most important attribute of the <mark>< a ></mark> element is the <mark>href</mark> attribute, which indicates the link's destination.<br><br>
+            The <i>link text</i> is the part that will be visible to the reader.<br><br>
+            Clicking on the link text, will send the reader to the specified URL address.<br><br>
+            Example: <a href="https://github.com/ldiazriod/Apuntes_Web-frontend.git"> My Github repository</a>
+        </p>
+        <pre>
+By defaul, links will appear as follows in all browsers:
+    - An unvisited link is underlined and blue
+    - A visited link is underlined and purple
+    - An active link is underlined and red
+
+    <strong>Tip: </strong> Links can of course by styled with CSS.
+        </pre>
+        <hr>
+        <h2>
+            HTML Links - The target Attribute
+        </h2>
+        <p>
+            By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.<br><br>
+            The <mark>target</mark> attribute specifies where to open the linked document.
+        </p>
+        <pre>
+The <mark>Target</mark> attribute can have one of the following values:
+
+    - <mark>_self</mark>: Default. Opens the document in the same window/tb as it was clicked.
+    - <mark>_blank</mark>: Opens the document in a new window or tab.
+    - <mark>_parent</mark>: Opens the document in the parent frame.
+    - <mark>_top</mark>: Opens the document in the full body of the window
+
+Example: <a href="https://github.com/ldiazriod/Apuntes_Web-frontend.git" target="_blank"> Open my Github repository in a new tab</a>
+        </pre>
+        <hr>
+        <h2>
+            Absolute URLs vs. Relative URLs
+        </h2>
+        <p>
+            The absolute URLs use a full web addrees in the <mark>href</mark> attribute.<br><br>
+            A local link (a link to a page within the same wbesite) is specified with a relative URL (without the "https://www" part).
+        </p>
+        <hr>
+        <h2>
+            HTML Links - Use an Image as a Link
+        </h2>
+        <p>
+            To use an image as a link, just put <mark>< img > </mark> tag inside the <mark>< a ></mark> tag.<br><br>
+            Example: <br>
+            <a href="https://github.com/ldiazriod/Apuntes_Web-frontend.git" target="_blank"> <img src="https://image.flaticon.com/icons/png/512/25/25231.png" alt="My Github repository" style="width: 42px; height: 42px;"> </a>
+            
+        </p>
+        <hr>
+        <h2>
+            Link to an Email Address
+        </h2>
+        <p>
+            Use <mark>mailto: </mark> inside the <mark>href</mark> attribute to create a link that opens the user's email program (to let them send a new email):
+            Example <a href="mailto:someone@example.com">Send email</a>
+        </p>
+        <hr>
+        <h2>
+            Link Titles
+        </h2>
+        <p>
+            The <mark>title</mark> attribute specifies extra information about an element. The information is most often shown as a tootltip text when the mouse moves over the element.<br><br>
+            Example: <a href="https://github.com/ldiazriod/Apuntes_Web-frontend.git" title="repository name - Apuntes_Web-frontend"> My Github repository </a>
+        </p>
+    </body>
+</html>

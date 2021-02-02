@@ -1,0 +1,17 @@
+h1{
+    color: powderblue;
+    font-family: fantasy;
+    font-size: 300%;
+}
+
+p {
+    color: #e6d1b0;
+    font-family: sans-serif;
+    font-size: 160%;
+}
+
+mark {
+    color: black;
+    font-family: sans-serif;
+    background-color: #e6b0c5;
+}

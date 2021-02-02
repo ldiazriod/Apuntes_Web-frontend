@@ -1,0 +1,12 @@
+h1{
+    color: salmon;
+}
+
+p{
+    border: 2px solid powderblue;
+}
+
+mark{
+    background-color: sandybrown;
+    color: black;
+}
